@@ -2,6 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .text-primary {
@@ -21,7 +22,7 @@ body {
 
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 
@@ -47,4 +48,163 @@ nav a {
     color: white;
     padding: 18px 35px;
 
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-discription {
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.aboute {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 146px;
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 130px;
+
+}
+
+.section-discription {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-continer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+#what {
+    padding: 30px 150px;
+}
+
+.skils-conteiner {
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skil-discription {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.resume-conteiner {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.resume-item-info {
+    Color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.dowanlod-cv{
+    text-align: center;
+    margin-top: 69px;
+}
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 200px;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"],textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+background: #FFF;
+border: 0px;
+width: 100%;
 }
